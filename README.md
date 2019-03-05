@@ -1,1 +1,1 @@
-# Strategy-game
+# math_library

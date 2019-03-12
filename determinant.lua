@@ -24,4 +24,10 @@ while true do
     else break
     end
 end
-print(squdet.n)
+element = squdet.n*squdet.n
+print(element)
+
+io.write("Element of the determinant : ")
+
+
+

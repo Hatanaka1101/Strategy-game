@@ -1,17 +1,4 @@
---[[ Calculation for deffirent det
-
-print("How long will it be determinant?")
-det_fact = {}
-
-io.write("Var : ")
-det_fact.var = io.read()
-
-io.write("Hor : ")
-det_fact.hor = io.read()
-
-]]-- 
-
----Square matrix
+---Square matrix(input)
 squdet = {}
 io.write("n order? : ")
 squdet.n = io.read("*n")
@@ -23,13 +10,7 @@ while true do
     else break
     end
 end
---[[
-i = 1
-while i < squdet.n*squdet.n do
-    alphabet = string.char(97 + i)
-    element[i] = alphabet
-end
-]]
+
 
 element = {}
 i = 1

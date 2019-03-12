@@ -13,7 +13,6 @@ det_fact.hor = io.read()
 
 ---Square matrix
 squdet = {}
-
 io.write("n order? : ")
 squdet.n = io.read("*n")
 while true do
@@ -24,10 +23,18 @@ while true do
     else break
     end
 end
-element = squdet.n*squdet.n
-print(element)
+--[[
+i = 1
+while i < squdet.n*squdet.n do
+    alphabet = string.char(97 + i)
+    element[i] = alphabet
+end
+]]
 
+element = {}
 io.write("Element of the determinant : ")
-
-
-
+i = 1
+while i < squdet.n*squdet.n do
+    i = i + 1
+    element[i] = io.read("*n")
+end
